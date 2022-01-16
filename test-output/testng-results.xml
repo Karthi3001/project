@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-16T18:43:16 IST" name="Default suite" finished-at="2022-01-16T18:44:54 IST" duration-ms="98740">
+    <groups>
+    </groups>
+    <test started-at="2022-01-16T18:43:16 IST" name="Default test" finished-at="2022-01-16T18:44:54 IST" duration-ms="98740">
+      <class name="com.mindtree.runner.carSavaari">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:16 IST" name="initializeDriver" finished-at="2022-01-16T18:43:33 IST" duration-ms="17241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="validateTitle(java.lang.String)[pri:1, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:33 IST" name="validateTitle" data-provider="getTitle" finished-at="2022-01-16T18:43:34 IST" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book Outstation Cabs, Local & Airport Taxi Service - India's Leading Car Rentals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="signin(java.lang.String, java.lang.String)[pri:2, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:34 IST" name="signin" data-provider="signin" finished-at="2022-01-16T18:43:40 IST" duration-ms="5948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik.prabha3007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthi30$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="app()[pri:3, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:40 IST" name="app" finished-at="2022-01-16T18:43:48 IST" duration-ms="7935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- app -->
+        <test-method signature="outStation(java.lang.String, java.lang.String)[pri:4, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:48 IST" name="outStation" data-provider="getData1" finished-at="2022-01-16T18:43:57 IST" duration-ms="8921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hosur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai Central, Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outStation -->
+        <test-method signature="Airport(java.lang.String)[pri:5, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:43:57 IST" name="Airport" data-provider="getData2" finished-at="2022-01-16T18:44:07 IST" duration-ms="10109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bus stand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Airport -->
+        <test-method signature="trip()[pri:6, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:07 IST" name="trip" finished-at="2022-01-16T18:44:16 IST" duration-ms="9453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trip -->
+        <test-method signature="Local()[pri:7, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:16 IST" name="Local" finished-at="2022-01-16T18:44:23 IST" duration-ms="6422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Local -->
+        <test-method signature="CarRental(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:23 IST" name="CarRental" data-provider="getData3" finished-at="2022-01-16T18:44:43 IST" duration-ms="20431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mindtree]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[karthik.prabha3007@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.361233511E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarRental -->
+        <test-method signature="signOuts()[pri:9, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:43 IST" name="signOuts" finished-at="2022-01-16T18:44:45 IST" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOuts -->
+        <test-method signature="instgram()[pri:10, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:45 IST" name="instgram" finished-at="2022-01-16T18:44:52 IST" duration-ms="7108" status="FAIL">
+          <exception class="com.mindtree.exceptions.ApplicationException">
+            <full-stacktrace>
+              <![CDATA[null
+at com.mindtree.runner.carSavaari.instgram(carSavaari.java:199)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.mindtree.exceptions.ApplicationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instgram -->
+        <test-method is-config="true" signature="closeInstance()[pri:0, instance:com.mindtree.runner.carSavaari@5cbe877d]" started-at="2022-01-16T18:44:52 IST" name="closeInstance" finished-at="2022-01-16T18:44:54 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeInstance -->
+      </class> <!-- com.mindtree.runner.carSavaari -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
